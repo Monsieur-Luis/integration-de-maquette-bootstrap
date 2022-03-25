@@ -1,0 +1,99 @@
+
+/* importation de variables*/
+@import 'vars';
+@import url($link-font-principal);
+
+/* style de font pour le corps du document*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* class pour la couleur gris foncée */
+.c-princ{
+	color: $cprincipale;
+}
+
+/* class pour la couleur gris pâle */
+.c-second{
+	color: $couleur-texte-secondaire;
+}
+
+/* class orange pour texte */
+.c-accent{
+	color: $couleur-accent;
+}
+
+/* style pour les boutons du menu de navigation en hover */
+nav{
+	.navbar-custom .nav-item.active .nav-link,
+	.navbar-custom .nav-item:hover .nav-link{
+    color: $couleur-accent;
+	}
+}
+
+/* style pour placer le texte dans le slider */
+.text-slider{	
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 40%;
+	left: 37%;
+	text-align: center;
+	color: white;
+}
+
+/* style pour la section services */
+#services{
+	background: $csecondaire; // background gris pâle pour la section services
+	.item-services{ //padding pour la section services	
+	padding-top: 3%;
+	padding-bottom: 3%;
+	}.fas{
+	color: $couleur-accent; //coueleur orange pour les icones
+	font-size: 50px;
+	}.btn-serv{
+	border:none;
+	width: 70px;
+	height: 30px;
+	background-color: $cprincipale;
+	color: white;
+	border-radius: 4px;
+	}.btn-serv:hover{
+	background-color: $couleur-accent;
+	}	
+}
+
+/* style pour le bouton de la section portfolio */
+#portfolio{
+	.btn-port{
+		border:none;
+		width: 150px;
+		height: 40px;
+		background-color: $couleur-accent;
+		color: white;
+		border-radius: 4px;
+		}& .btn-port:hover{
+			background-color: $cprincipale;
+			}
+}
+
+/*Style footer*/
+#foot{
+	height: 350px;
+	background-color: $cprincipale;
+	.soc-media{ //
+	background: white;
+	}.icon-footer{
+	font-size: 50px;
+	color: $couleur-accent;
+	}.icon-linkedin{
+	font-size: 30px;
+	color: white;
+	background: $couleur-accent;
+    padding:11px;
+    border-radius: 50%;	
+	}
+}
+
+

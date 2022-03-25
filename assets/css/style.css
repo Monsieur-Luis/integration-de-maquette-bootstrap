@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* importation de variables*/
+/* VARIABLES */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* style de font pour le corps du document*/
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* class pour la couleur gris foncée */
+.c-princ {
+  color: #637f83;
+}
+
+/* class pour la couleur gris pâle */
+.c-second {
+  color: #a3a2a2;
+}
+
+/* class orange pour texte */
+.c-accent {
+  color: #e4551d;
+}
+
+/* style pour les boutons du menu de navigation en hover */
+nav .navbar-custom .nav-item.active .nav-link,
+nav .navbar-custom .nav-item:hover .nav-link {
+  color: #e4551d;
+}
+
+/* style pour placer le texte dans le slider */
+.text-slider {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 40%;
+  left: 37%;
+  text-align: center;
+  color: white;
+}
+
+/* style pour la section services */
+#services {
+  background: #f6f6f6;
+}
+#services .item-services {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+#services .fas {
+  color: #e4551d;
+  font-size: 50px;
+}
+#services .btn-serv {
+  border: none;
+  width: 70px;
+  height: 30px;
+  background-color: #637f83;
+  color: white;
+  border-radius: 4px;
+}
+#services .btn-serv:hover {
+  background-color: #e4551d;
+}
+
+/* style pour le bouton de la section portfolio */
+#portfolio .btn-port {
+  border: none;
+  width: 150px;
+  height: 40px;
+  background-color: #e4551d;
+  color: white;
+  border-radius: 4px;
+}
+#portfolio .btn-port:hover {
+  background-color: #637f83;
+}
+
+/*Style footer*/
+#foot {
+  height: 350px;
+  background-color: #637f83;
+}
+#foot .soc-media {
+  background: white;
+}
+#foot .icon-footer {
+  font-size: 50px;
+  color: #e4551d;
+}
+#foot .icon-linkedin {
+  font-size: 30px;
+  color: white;
+  background: #e4551d;
+  padding: 11px;
+  border-radius: 50%;
+}
