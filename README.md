@@ -1,4 +1,4 @@
-# integration-de-maquette-bootstrap
+# Integration-de-maquette-bootstrap
 
 Intégration du landing page selon l'exemple donné ci-dessous au pixel près. 
 
